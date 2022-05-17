@@ -20,6 +20,7 @@ const sumDigitsSquared = (num) => {
   return total;
 }
 
+
 const isHappy = (num) => {
   while (num != 1n && num != 4n) {
     num = sumDigitsSquared(num);
